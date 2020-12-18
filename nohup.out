@@ -1,0 +1,124 @@
+DEBUG:root:專案名稱:PH83
+
+標題:標題測試
+
+bugid:3706
+
+Assigned to:John
+
+http://10.81.2.28/bugtracker/edit_bug.aspx?id=3706
+DEBUG:telegram.bot:Entering: send_message
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot1261633160:AAFYWuEPSot1owxe_yut5lj8-RS2rkjNyy8/sendMessage HTTP/1.1" 400 73
+Traceback (most recent call last):
+  File "/workspace/PublishMessage.py", line 70, in <module>
+    TelegramBotMessage(msg=msg, chatid=i[3])
+  File "/workspace/PublishMessage.py", line 43, in TelegramBotMessage
+    bot.sendMessage(chatid,text=msg)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 385, in send_message
+    timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 215, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 185, in _post
+    timeout=timeout)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/utils/request.py", line 328, in post
+    **urlopen_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/utils/request.py", line 250, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+DEBUG:root:專案名稱:PH83
+
+標題:標題測試
+
+bugid:3706
+
+Assigned to:John
+
+http://10.81.2.28/bugtracker/edit_bug.aspx?id=3706
+DEBUG:telegram.bot:Entering: send_message
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot1261633160:AAFYWuEPSot1owxe_yut5lj8-RS2rkjNyy8/sendMessage HTTP/1.1" 400 73
+Traceback (most recent call last):
+  File "/workspace/PublishMessage.py", line 70, in <module>
+    TelegramBotMessage(msg=msg, chatid=i[3])
+  File "/workspace/PublishMessage.py", line 43, in TelegramBotMessage
+    bot.sendMessage(chatid,text=msg)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 385, in send_message
+    timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 215, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 185, in _post
+    timeout=timeout)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/utils/request.py", line 328, in post
+    **urlopen_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/utils/request.py", line 250, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+DEBUG:root:專案名稱:PH83
+
+標題:標題測試
+
+bugid:3706
+
+Assigned to:John
+
+http://10.81.2.28/bugtracker/edit_bug.aspx?id=3706
+DEBUG:telegram.bot:Entering: send_message
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot1261633160:AAFYWuEPSot1owxe_yut5lj8-RS2rkjNyy8/sendMessage HTTP/1.1" 400 73
+{'token': '1261633160:AAFYWuEPSot1owxe_yut5lj8-RS2rkjNyy8', 'ruby_token': '1320426614:AAGaZHOejZfFFTe2m3b9yaTyT60keHJeQl0', 'test_token': '1251399160:AAFwgUQq0pHJOLqZWx8D7ttrPHCu0pHtMGM'}
+Traceback (most recent call last):
+  File "/workspace/PublishMessage.py", line 70, in <module>
+    TelegramBotMessage(msg=msg, chatid=i[3])
+  File "/workspace/PublishMessage.py", line 43, in TelegramBotMessage
+    bot.sendMessage(chatid,text=msg)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 385, in send_message
+    timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 215, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/bot.py", line 185, in _post
+    timeout=timeout)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/utils/request.py", line 328, in post
+    **urlopen_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/telegram/utils/request.py", line 250, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+DEBUG:root:專案名稱:PH83
+
+標題:標題測試
+
+bugid:3706
+
+Assigned to:John
+
+http://10.81.2.28/bugtracker/edit_bug.aspx?id=3706
+DEBUG:telegram.bot:Entering: send_message
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot1247008403:AAHGRa55ADacQUMlnaDR1kSbud86W1tWEvk/sendMessage HTTP/1.1" 200 464
+DEBUG:telegram.bot:{'message_id': 178, 'date': 1608276295, 'chat': {'id': -397262851, 'type': 'group', 'title': 'PH83', 'all_members_are_administrators': True}, 'text': '專案名稱:PH83\n\n標題:標題測試\n\nbugid:3706\n\nAssigned to:John\n\nhttp://10.81.2.28/bugtracker/edit_bug.aspx?id=3706', 'entities': [{'type': 'url', 'offset': 50, 'length': 50}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1247008403, 'first_name': 'EP_Bot', 'is_bot': True, 'username': 'EP_Auto_Testing_Bot'}}
+DEBUG:telegram.bot:Exiting: send_message
+DEBUG:root:msg done update PushedDate..
+DEBUG:root:專案名稱:PH83
+
+標題:測試標題0
+
+bugid:3707
+
+Assigned to:John
+
+http://10.81.2.28/bugtracker/edit_bug.aspx?id=3707
+DEBUG:telegram.bot:Entering: send_message
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot1247008403:AAHGRa55ADacQUMlnaDR1kSbud86W1tWEvk/sendMessage HTTP/1.1" 200 465
+DEBUG:telegram.bot:{'message_id': 179, 'date': 1608276407, 'chat': {'id': -397262851, 'type': 'group', 'title': 'PH83', 'all_members_are_administrators': True}, 'text': '專案名稱:PH83\n\n標題:測試標題0\n\nbugid:3707\n\nAssigned to:John\n\nhttp://10.81.2.28/bugtracker/edit_bug.aspx?id=3707', 'entities': [{'type': 'url', 'offset': 51, 'length': 50}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1247008403, 'first_name': 'EP_Bot', 'is_bot': True, 'username': 'EP_Auto_Testing_Bot'}}
+DEBUG:telegram.bot:Exiting: send_message
+DEBUG:root:msg done update PushedDate..

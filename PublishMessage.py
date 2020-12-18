@@ -35,9 +35,9 @@ elif ENV == "DEV":
                     pwd=DBCONFIG_DEV["PWD"])
 
 def TelegramBotMessage(msg=None, photopath=None, filepath=None, chatid="-366226628"):
-    with open("setting.json",mode="r",encoding="utf-8") as f:
+    with open("/workspace/setting.json",mode="r",encoding="utf-8") as f:
         config = json.load(f)
-
+    print(config)
     bot = Bot(token=config["token"])
     if msg:
         bot.sendMessage(chatid,text=msg)
